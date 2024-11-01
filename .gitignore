@@ -1,0 +1,5 @@
+mongodb/*
+venv/*
+bot/__pycache__/*
+config/*
+bot.log
