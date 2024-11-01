@@ -1,4 +1,4 @@
-# YourSocialDownloaderBOT is Telegram Bot: **Fast. No daily limit. & Reliable**
+# YourSocialDownloaderBOT: **Fast. No daily limit. & Reliable**
 
 ```Created By pixilated```
 
