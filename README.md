@@ -15,6 +15,13 @@
 - `/help` – Show help menu
 - `/stats` - Show stats download 
 
+## Create Mongodb Uri 
+
+free but slow
+```
+https://account.mongodb.com/account/login
+
+```
 ## Run On Docker 
 
 1. Get your Telegram bot token from [@BotFather](https://t.me/BotFather)
