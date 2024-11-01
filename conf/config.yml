@@ -1,0 +1,7 @@
+telegram_token: "token here" 
+mongodb_uri: "uri here"
+
+##you dont need this ones for now 
+channel_admin: 
+admin_chat_id: 
+admin_usernames:

@@ -1,4 +1,4 @@
-# YourSocialDownloaderBOT is Telegram Bot: **Fast. No daily. & Reliable**
+# YourSocialDownloaderBOT is Telegram Bot: **Fast. No daily limit. & Reliable**
 
 ```Created By pixilated```
 
@@ -21,8 +21,8 @@
 
 2. Edit `config/config.example.yml` to set your tokens and run 2 commands below (*if you're advanced user, you can also edit* `config/config.example.env`):
 ```bash
-mv config/config.example.yml config/config.yml
-mv config/config.example.env config/config.env
+mv conf/config.yml config/
+mv conf/config.env config/
 ```
 
 🔥 And now **run**:
@@ -35,10 +35,11 @@ docker compose --env-file config/config.env up --build
 
 1. Get your Telegram bot token from [@BotFather](https://t.me/BotFather)
 
-2. Edit `config/config.example.yml` to set your tokens and run 2 commands below (*if you're advanced user, you can also edit* `config/config.example.env`):
+2. Edit `conf/config.yml` to set your tokens and run 2 commands below (*if you're advanced user, you can also edit* `conf/config.env`):
 ```bash
-mv config/config.example.yml config/config.yml
-mv config/config.example.env config/config.env
-```
-
-python3 -m venv venv && source venv/bin/activate  ## Launch the 
+mkdir config
+mv conf/config.yml config/
+mv config/config.env config/
+python3 -m venv venv && source venv/bin/activate
+python3 run.py
+``` 

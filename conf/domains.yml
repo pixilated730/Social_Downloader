@@ -1,0 +1,234 @@
+valid_domains: ["youtu","youtube", "x", "vk", "vimeo", "veoh", "tumblr", "ted", "soundcloud", "showroom", "pinterest", "mtv81", "mixcloud", "metacafe", "magisto", "khanacademy", "archive", "instagram", "infoq", "imgur", "heavymusicarchive",  "freesound", "flickr", "fc2", "facebook", "ehow", "dailymotion", "coub","cbs", "bandcamp", "alivethai", "interestme", "755", "niconico", "163", "56", "acfun", "baidu", "baomihua", "bilibili", "douban", "douyu", "ifeng", "fun", "iqiyi", "joy", "ku6", "kugou", "kuwo", "le", "lizhi", "lrts", "miaopai", "miomio", "missevan", "pixnet", "pptv", "iqilu", "qq", "sina", "sohu", "tudou", "isuntv", "youku", "zhanqi", "cntv", "naver", "mgtv", "huomao", "365yg", "ixigua", "xinpianchang", "kuaishou", "douyin", "tiktok", "zhibo", "zhihu"]
+
+domains:
+  youtu:
+    url: youtu.be
+    support: video
+  youtube:
+    url: youtube.com
+    support: video
+  x:
+    url: x.com
+    support: video, image
+  vk:
+    url: vk.com
+    support: video, image
+  vimeo:
+    url: vimeo.com
+    support: video
+  veoh:
+    url: veoh.com
+    support: video
+  tumblr:
+    url: tumblr.com
+    support: video, image, audio
+  ted:
+    url: ted.com
+    support: video
+  soundcloud:
+    url: soundcloud.com
+    support: audio
+  showroom:
+    url: showroom-live.com
+    support: video
+  pinterest:
+    url: pinterest.com
+    support: image
+  mtv81:
+    url: mtv81.com
+    support: video
+  mixcloud:
+    url: mixcloud.com
+    support: audio
+  metacafe:
+    url: metacafe.com
+    support: video
+  magisto:
+    url: magisto.com
+    support: video
+  khanacademy:
+    url: khanacademy.org
+    support: video
+  archive:
+    url: archive.org
+    support: video
+  instagram:
+    url: instagram.com
+    support: video, image
+  infoq:
+    url: infoq.com
+    support: video
+  imgur:
+    url: imgur.com
+    support: image
+  heavymusicarchive:
+    url: heavy-music.ru
+    support: audio
+  freesound:
+    url: freesound.org
+    support: audio
+  flickr:
+    url: flickr.com
+    support: video, image
+  fc2:
+    url: video.fc2.com
+    support: video
+  facebook:
+    url: facebook.com
+    support: video
+  ehow:
+    url: ehow.com
+    support: video
+  dailymotion:
+    url: dailymotion.com
+    support: video
+  coub:
+    url: coub.com
+    support: video
+  cbs:
+    url: cbs.com
+    support: video
+  bandcamp:
+    url: bandcamp.com
+    support: audio
+  alivethai:
+    url: alive.in.th
+    support: video
+  interestme:
+    url: ch.interest.me/tvn
+    support: video
+  755:
+    url: 7gogo.jp
+    support: video, image
+  niconico:
+    url: nicovideo.jp
+    support: video
+  163:
+    url: v.163.com
+    support: video
+  56:
+    url: 56.com
+    support: video
+  acfun:
+    url: acfun.cn
+    support: video
+  baidu:
+    url: tieba.baidu.com
+    support: video, image
+  baomihua:
+    url: baomihua.com
+    support: video
+  bilibili:
+    url: bilibili.com
+    support: video, image, audio
+  douban:
+    url: douban.com
+    support: video, audio
+  douyu:
+    url: douyutv.com
+    support: video
+  ifeng:
+    url: v.ifeng.com
+    support: video
+  fun:
+    url: fun.tv
+    support: video
+  iqiyi:
+    url: iqiyi.com
+    support: video
+  joy:
+    url: joy.cn
+    support: video
+  ku6:
+    url: ku6.com
+    support: video
+  kugou:
+    url: kugou.com
+    support: audio
+  kuwo:
+    url: kuwo.cn
+    support: audio
+  le:
+    url: le.com
+    support: video
+  lizhi:
+    url: lizhi.fm
+    support: audio
+  lrts:
+    url: lrts.me
+    support: audio
+  miaopai:
+    url: miaopai.com
+    support: video
+  miomio:
+    url: miomio.tv
+    support: video
+  missevan:
+    url: missevan.com
+    support: audio
+  pixnet:
+    url: pixnet.net
+    support: video
+  pptv:
+    url: pptv.com
+    support: video
+  iqilu:
+    url: iqilu.com
+    support: video
+  qq:
+    url: v.qq.com
+    support: video
+  sina:
+    url: video.sina.com.cn
+    support: video
+  sohu:
+    url: tv.sohu.com
+    support: video
+  tudou:
+    url: tudou.com
+    support: video
+  isuntv:
+    url: isuntv.com
+    support: video
+  youku:
+    url: youku.com
+    support: video
+  zhanqi:
+    url: zhanqi.tv
+    support: video
+  cntv:
+    url: cntv.cn
+    support: video
+  naver:
+    url: tvcast.naver.com
+    support: video
+  mgtv:
+    url: mgtv.com
+    support: video
+  huomao:
+    url: huomao.com
+    support: video
+  365yg:
+    url: 365yg.com
+    support: video
+  ixigua:
+    url: ixigua.com
+    support: video
+  xinpianchang:
+    url: xinpianchang.com
+    support: video
+  kuaishou:
+    url: kuaishou.com
+    support: video, image
+  douyin:
+    url: douyin.com
+    support: video
+  tiktok:
+    url: tiktok.com
+    support: video
+  zhibo:
+    url: video.zhibo.tv
+    support: video
+  zhihu:
+    url: zhihu.com
+    support: video
